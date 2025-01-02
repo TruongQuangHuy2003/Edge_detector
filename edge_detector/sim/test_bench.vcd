@@ -1,0 +1,173 @@
+$date
+	Thu Jan  2 23:13:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_bench $end
+$var wire 1 ! pulse_out_p $end
+$var wire 1 " pulse_out_n $end
+$var reg 1 # clk $end
+$var reg 1 $ exp_pulse_out_n $end
+$var reg 1 % exp_pulse_out_p $end
+$var reg 1 & rst_n $end
+$var reg 1 ' sign_in $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 & rst_n $end
+$var wire 1 ' sign_in $end
+$var reg 1 " pulse_out_n $end
+$var reg 1 ! pulse_out_p $end
+$var reg 1 ( sign_in_prev $end
+$upscope $end
+$scope task verify $end
+$var reg 1 ) exp_pulse_out_n $end
+$var reg 1 * exp_pulse_out_p $end
+$var reg 1 + pulse_out_n $end
+$var reg 1 , pulse_out_p $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x,
+x+
+x*
+x)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#1000
+0+
+0)
+0,
+0*
+#5000
+1#
+#10000
+0#
+#11000
+1&
+#15000
+1#
+#20000
+0#
+#21000
+1%
+1'
+#22000
+1*
+#25000
+1(
+1!
+1#
+#30000
+0#
+#32000
+1$
+0%
+0'
+#33000
+1)
+1,
+0*
+#35000
+0(
+1"
+0!
+1#
+#40000
+0#
+#43000
+0$
+#44000
+1+
+0)
+0,
+#45000
+0"
+1#
+#50000
+0#
+#54000
+1%
+1'
+#55000
+1(
+1!
+0+
+1*
+1#
+#60000
+0#
+#65000
+0!
+1#
+0%
+#66000
+0*
+#70000
+0#
+#75000
+1#
+#76000
+1$
+0'
+#77000
+1)
+#80000
+0#
+#85000
+0(
+1"
+1#
+#90000
+0#
+#95000
+0"
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#
+#115000
+1#
+#120000
+0#
+#125000
+1#
+#130000
+0#
+#135000
+1#
+#140000
+0#
+#145000
+1#
+#150000
+0#
+#155000
+1#
+#160000
+0#
+#165000
+1#
+#170000
+0#
+#175000
+1#
+#177000
