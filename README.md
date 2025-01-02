@@ -49,21 +49,6 @@ The equations derived from these K-Maps validate the logic used in the design.
 
 ---
 
-## **Simulation**
-### **Steps to Simulate**
-1. **Compile the design and testbench**:
-   ```bash
-   iverilog -o edge_detector_tb.out rtl/edge_detector.v sim/edge_detector_tb.v
-   ```
-2. **Run the simulation**:
-   ```bash
-   vvp edge_detector_tb.out
-   ```
-3. **View the waveform**:
-   ```bash
-   gtkwave edge_detector_tb.vcd
-   ```
-
 ### **Expected Results**
 - When `sig_in` has a rising edge (`0 -> 1`), `pulse_out_p` should go high for one clock cycle.
 - When `sig_in` has a falling edge (`1 -> 0`), `pulse_out_n` should go high for one clock cycle.
